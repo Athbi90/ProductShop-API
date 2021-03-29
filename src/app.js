@@ -13,10 +13,10 @@ app.use(cors());
 
 // Passport setup
 app.use(passport.initialize());
-app.use(localStrategy);
+passport.use(localStrategy);
 // Routers
 app.use("/", productsRoutes);
-app.user("/", usersRoutes);
+app.use("/", usersRoutes);
 
 const run = async () => {
   try {

@@ -1,4 +1,3 @@
-let products = require("../data");
 const slugify = require("slugify");
 const { Product } = require("../db/models");
 

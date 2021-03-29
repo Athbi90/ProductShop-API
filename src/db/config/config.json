@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "Twixq8123",
-    "database": "Cookies",
+    "username": "athbi",
+    "password": null,
+    "database": "cookieshop_db",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
